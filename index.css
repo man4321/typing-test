@@ -1,0 +1,83 @@
+#popMain{
+    margin-top: auto;
+    margin-bottom: 50%;
+    margin-left: auto;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background:rgba(0,0,0,0.3);
+    
+    z-index: 1000;
+    
+}
+#popup{
+    width: 500px;
+    height: 250px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('img/typing-test.jpg');
+    background-size: cover;
+    position: absolute;
+    box-shadow: 1px 2px 3px 4px black;
+}
+#h{
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.text{
+    margin-top: -48px;
+    margin-left: 5px;
+    width: 800px;
+    height: 200px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size:x-large;
+    overflow-y: scroll;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Raleway', sans-serif;
+/* z-index: 900; */
+
+}
+#user{
+    
+    left:-241px;
+}
+#table{
+    position: absolute;
+    top:110px;
+    margin-top:43px;
+    right: 15px;
+    height: 400px;
+    width: 500px;
+    /* z-index: 900; */
+    cursor: pointer;
+}
+.item:hover{
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  box-shadow: 10px 10px  grey;
+}
+
+#selectTime{
+    position: absolute;
+    border: 2px solid black;
+    top: 100px;
+    margin-top: 43px;
+    right: 15px;
+    height: 44px;
+    width: 442px;
+    z-index: 900;
+    top: 65px;
+    right: 21px;
+}
+#select{
+    right:3px;
+    margin-left: 131px;
+} 
+#set{
+    width: 421px;
+    height: 4px;
+    z-index: 900;
+
+}
